@@ -1,11 +1,11 @@
 {
-  "name": "Fanyi-Node",
+  "name": "fanyi-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "test": "node server.js"
   },
   "keywords": [],
   "author": "",
