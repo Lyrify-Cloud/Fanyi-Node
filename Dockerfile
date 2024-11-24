@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:22-alpine
 
 COPY ./lib /home/app/lib
 COPY ./tool /home/app/tool
