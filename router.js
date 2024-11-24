@@ -6,13 +6,15 @@ import { googleTranslate } from "./lib/google.js";
 import { microsoftTranslate } from "./lib/microsoft.js";
 import { transmartTranslate } from "./lib/transmart.js";
 import { youdaoTranslate } from "./lib/youdao.js";
+import { geminiTranslate } from "./lib/gemini.js";
 
 const translationFunctions = {
     deepl: deeplTranslate,
     google: googleTranslate,
     microsoft: microsoftTranslate,
     transmart: transmartTranslate,
-    youdao: youdaoTranslate
+    youdao: youdaoTranslate,
+    gemini: geminiTranslate
 };
 
 async function Translate(model, text, form, to) {
