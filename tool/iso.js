@@ -9,6 +9,7 @@ const modelLanguageCodes = {
   'transmart': { 'zh-Hans': 'zh', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'gemini': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'English', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
   'papago': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
+  'niutrans': { 'zh-Hans': 'zh', 'zh-Hant': 'cht', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
 };
 
 function getLanguageCode(modelName, languageCode) {

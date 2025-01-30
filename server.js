@@ -1,4 +1,5 @@
 // server.js
+
 import Fastify from 'fastify';
 import lcache from "fastify-lcache";
 import { Translate } from "./router.js";
