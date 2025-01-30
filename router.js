@@ -1,24 +1,28 @@
 // router.js
 import { getLanguageCode } from "./tool/iso.js";
 
-import { deeplTranslate } from './lib/deepl.js';
-import { googleTranslate } from "./lib/google.js";
-import { microsoftTranslate } from "./lib/microsoft.js";
-import { transmartTranslate } from "./lib/transmart.js";
-import { geminiTranslate } from "./lib/gemini.js";
-import { papagoTranslate } from "./lib/papago.js";
-import { niutransTranslate } from "./lib/niutrans.js";
-import { reversoTranslate } from "./lib/reverso.js";
+import { deepl_Translate } from './lib/deepl.js';
+import { google_Translate } from "./lib/google.js";
+import { microsoft_Translate } from "./lib/microsoft.js";
+import { transmart_Translate } from "./lib/transmart.js";
+import { gemini_Translate } from "./lib/gemini.js";
+import { papago_Translate } from "./lib/papago.js";
+import { niutrans_Translate } from "./lib/niutrans.js";
+import { reverso_Translate } from "./lib/reverso.js";
+import { xinghuo_lite_Translate } from "./lib/xinghuo_lite.js";
+import { caiyun_Translate } from "./lib/caiyun.js";
 
 const translationFunctions = {
-    deepl: deeplTranslate,
-    google: googleTranslate,
-    microsoft: microsoftTranslate,
-    transmart: transmartTranslate,
-    gemini: geminiTranslate,
-    papago: papagoTranslate,
-    niutrans: niutransTranslate,
-    reverso: reversoTranslate,
+    deepl: deepl_Translate,
+    google: google_Translate,
+    microsoft: microsoft_Translate,
+    transmart: transmart_Translate,
+    gemini: gemini_Translate,
+    papago: papago_Translate,
+    niutrans: niutrans_Translate,
+    reverso: reverso_Translate,
+    xinghuo_lite: xinghuo_lite_Translate,
+    caiyun: caiyun_Translate,
 };
 
 async function Translate(model, text, form, to) {
