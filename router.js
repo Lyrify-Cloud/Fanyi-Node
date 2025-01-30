@@ -8,6 +8,7 @@ import { transmartTranslate } from "./lib/transmart.js";
 import { geminiTranslate } from "./lib/gemini.js";
 import { papagoTranslate } from "./lib/papago.js";
 import { niutransTranslate } from "./lib/niutrans.js";
+import { reversoTranslate } from "./lib/reverso.js";
 
 const translationFunctions = {
     deepl: deeplTranslate,
@@ -17,6 +18,7 @@ const translationFunctions = {
     gemini: geminiTranslate,
     papago: papagoTranslate,
     niutrans: niutransTranslate,
+    reverso: reversoTranslate,
 };
 
 async function Translate(model, text, form, to) {
