@@ -6,7 +6,7 @@
 ## 部署
 Docker 部署
 ```
-docker run -d -p 3000:3000 lyrifycloud/fanyi-node:latest
+docker run -d -p 3000:3000 -e GEMINI_API_KEY=your_api_key_here lyrifycloud/fanyi-node:latest
 ```
 
 ## 使用

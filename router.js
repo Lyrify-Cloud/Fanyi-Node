@@ -5,16 +5,16 @@ import { deeplTranslate } from './lib/deepl.js';
 import { googleTranslate } from "./lib/google.js";
 import { microsoftTranslate } from "./lib/microsoft.js";
 import { transmartTranslate } from "./lib/transmart.js";
-import { youdaoTranslate } from "./lib/youdao.js";
 import { geminiTranslate } from "./lib/gemini.js";
+import { papagoTranslate } from "./lib/papago.js";
 
 const translationFunctions = {
     deepl: deeplTranslate,
     google: googleTranslate,
     microsoft: microsoftTranslate,
     transmart: transmartTranslate,
-    youdao: youdaoTranslate,
-    gemini: geminiTranslate
+    gemini: geminiTranslate,
+    papago: papagoTranslate
 };
 
 async function Translate(model, text, form, to) {
