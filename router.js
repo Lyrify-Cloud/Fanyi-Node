@@ -5,21 +5,27 @@ import { xinghuo_lite_Translate } from "./lib/xinghuo/xinghuo_lite.js";
 import { xinghuo_pro_Translate } from "./lib/xinghuo/xinghuo_pro.js";
 import { xinghuo_max_Translate } from "./lib/xinghuo/xinghuo_max.js";
 
-import { deepl_Translate } from './lib/deepl.js';
-import { google_Translate } from "./lib/google.js";
-import { microsoft_Translate } from "./lib/microsoft.js";
-import { transmart_Translate } from "./lib/transmart.js";
-import { gemini_Translate } from "./lib/gemini.js";
-import { papago_Translate } from "./lib/papago.js";
-import { niutrans_Translate } from "./lib/niutrans.js";
-import { reverso_Translate } from "./lib/reverso.js";
-import { caiyun_Translate } from "./lib/caiyun.js";
+import { qwen_turbo_Translate } from "./lib/qwen/qwen_turbo.js";
+import { qwen_plus_Translate } from "./lib/qwen/qwen_plus.js";
+import { qwen_max_Translate } from "./lib/qwen/qwen_max.js";
+
 import { glm_4_air_Translate } from "./lib/glm/glm_4_air.js";
 import { glm_4_flash_Translate } from "./lib/glm/glm_4_flash.js";
 import { glm_4_plus_Translate } from "./lib/glm/glm_4_plus.js";
-import { qwen_max_Translate } from "./lib/qwen/qwen_max.js";
-import { qwen_plus_Translate } from "./lib/qwen/qwen_plus.js";
-import { qwen_turbo_Translate } from "./lib/qwen/qwen_turbo.js";
+
+import { gemini_1_5_flash_Translate } from "./lib/gemini/gemini_1_5_flash.js";
+import { gemini_1_5_pro_Translate } from "./lib/gemini/gemini_1_5_pro.js";
+
+import { deepl_Translate } from './lib/other/deepl.js';
+import { google_Translate } from "./lib/other/google.js";
+import { microsoft_Translate } from "./lib/other/microsoft.js";
+import { transmart_Translate } from "./lib/other/transmart.js";
+import { papago_Translate } from "./lib/other/papago.js";
+import { niutrans_Translate } from "./lib/other/niutrans.js";
+import { reverso_Translate } from "./lib/other/reverso.js";
+import { caiyun_Translate } from "./lib/other/caiyun.js";
+
+
 
 
 
@@ -36,11 +42,14 @@ const translationFunctions = {
     qwen_plus: qwen_plus_Translate,
     qwen_max: qwen_max_Translate,
 
+    gemini_1_5_flash: gemini_1_5_flash_Translate,
+    gemini_1_5_pro: gemini_1_5_pro_Translate,
+
     deepl: deepl_Translate,
     google: google_Translate,
     microsoft: microsoft_Translate,
     transmart: transmart_Translate,
-    gemini: gemini_Translate,
+
     papago: papago_Translate,
     niutrans: niutrans_Translate,
     reverso: reverso_Translate,

@@ -15,12 +15,15 @@ const modelLanguageCodes = {
   'qwen_turbo': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
   'qwen_plus': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
   'qwen_max': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  // gemini
+  'gemini_1_5_flash': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  'gemini_1_5_pro': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
 
   'deepl': { 'zh-Hans': 'ZH', 'en': 'EN', 'de': 'DE', 'fr': 'FR', 'it': 'IT', 'ja': 'JA', 'ko': 'KO' },
   'google': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'microsoft': { 'zh-Hans': 'zh-Hans', 'zh-Hant': 'zh-Hant', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'transmart': { 'zh-Hans': 'zh', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
-  'gemini': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+
   'papago': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'niutrans': { 'zh-Hans': 'zh', 'zh-Hant': 'cht', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'reverso': { 'zh-Hans': 'chi', 'zh-Hant': 'cht', 'en': 'eng', 'de': 'ger', 'fr': 'fra', 'it': 'ita', 'ja': 'jpn', 'ko': 'kor' },
