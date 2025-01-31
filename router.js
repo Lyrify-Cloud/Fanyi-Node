@@ -17,6 +17,9 @@ import { caiyun_Translate } from "./lib/caiyun.js";
 import { glm_4_air_Translate } from "./lib/glm/glm_4_air.js";
 import { glm_4_flash_Translate } from "./lib/glm/glm_4_flash.js";
 import { glm_4_plus_Translate } from "./lib/glm/glm_4_plus.js";
+import { qwen_max_Translate } from "./lib/qwen/qwen_max.js";
+import { qwen_plus_Translate } from "./lib/qwen/qwen_plus.js";
+import { qwen_turbo_Translate } from "./lib/qwen/qwen_turbo.js";
 
 
 
@@ -28,6 +31,10 @@ const translationFunctions = {
     glm_4_flash: glm_4_flash_Translate,
     glm_4_air: glm_4_air_Translate,
     glm_4_plus: glm_4_plus_Translate,
+
+    qwen_turbo: qwen_turbo_Translate,
+    qwen_plus: qwen_plus_Translate,
+    qwen_max: qwen_max_Translate,
 
     deepl: deepl_Translate,
     google: google_Translate,
