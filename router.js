@@ -14,6 +14,9 @@ import { papago_Translate } from "./lib/papago.js";
 import { niutrans_Translate } from "./lib/niutrans.js";
 import { reverso_Translate } from "./lib/reverso.js";
 import { caiyun_Translate } from "./lib/caiyun.js";
+import { glm_4_air_Translate } from "./lib/glm/glm_4_air.js";
+import { glm_4_flash_Translate } from "./lib/glm/glm_4_flash.js";
+import { glm_4_plus_Translate } from "./lib/glm/glm_4_plus.js";
 
 
 
@@ -21,6 +24,11 @@ const translationFunctions = {
     xinghuo_lite: xinghuo_lite_Translate,
     xinghuo_pro: xinghuo_pro_Translate,
     xinghuo_max: xinghuo_max_Translate,
+
+    glm_4_flash: glm_4_flash_Translate,
+    glm_4_air: glm_4_air_Translate,
+    glm_4_plus: glm_4_plus_Translate,
+
     deepl: deepl_Translate,
     google: google_Translate,
     microsoft: microsoft_Translate,
@@ -30,6 +38,7 @@ const translationFunctions = {
     niutrans: niutrans_Translate,
     reverso: reverso_Translate,
     caiyun: caiyun_Translate,
+
 };
 
 async function Translate(model, text, form, to) {

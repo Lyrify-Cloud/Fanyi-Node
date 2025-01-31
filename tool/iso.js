@@ -7,6 +7,10 @@ const modelLanguageCodes = {
   'xinghuo_lite': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
   'xinghuo_pro': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
   'xinghuo_max': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  // glm
+  'glm_4_flash': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  'glm_4_air': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  'glm_4_plus': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
 
   'deepl': { 'zh-Hans': 'ZH', 'en': 'EN', 'de': 'DE', 'fr': 'FR', 'it': 'IT', 'ja': 'JA', 'ko': 'KO' },
   'google': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
