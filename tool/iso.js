@@ -3,6 +3,11 @@
 // zh-Hans zh-Hant en de fr it ja ko
 
 const modelLanguageCodes = {
+  // xinghuo
+  'xinghuo_lite': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  'xinghuo_pro': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+  'xinghuo_max': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+
   'deepl': { 'zh-Hans': 'ZH', 'en': 'EN', 'de': 'DE', 'fr': 'FR', 'it': 'IT', 'ja': 'JA', 'ko': 'KO' },
   'google': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'microsoft': { 'zh-Hans': 'zh-Hans', 'zh-Hant': 'zh-Hant', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
@@ -11,7 +16,7 @@ const modelLanguageCodes = {
   'papago': { 'zh-Hans': 'zh-CN', 'zh-Hant': 'zh-TW', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'niutrans': { 'zh-Hans': 'zh', 'zh-Hant': 'cht', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
   'reverso': { 'zh-Hans': 'chi', 'zh-Hant': 'cht', 'en': 'eng', 'de': 'ger', 'fr': 'fra', 'it': 'ita', 'ja': 'jpn', 'ko': 'kor' },
-  'xinghuo_lite': { 'zh-Hans': 'Simplified Chinese', 'en': 'English', 'de': 'German', 'fr': 'French', 'it': 'Italian', 'ja': 'Japanese', 'ko': 'Korean' },
+
   'caiyun': { 'zh-Hans': 'zh', 'en': 'en', 'de': 'de', 'fr': 'fr', 'it': 'it', 'ja': 'ja', 'ko': 'ko' },
 };
 
